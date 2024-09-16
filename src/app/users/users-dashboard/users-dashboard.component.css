@@ -1,0 +1,38 @@
+
+header{
+    background-color: #93c5fd; 
+}
+.datos_title{
+    background-color: #869cb4; 
+}
+
+#recipients{
+    background-color: #869cb4; 
+}
+
+.text-title {
+    color: #1e40af; 
+}
+
+
+.table_div {
+    background-color: #2563eb; 
+    color: #ffffff; 
+}
+
+.table_title {
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+.data-user:hover {
+    background-color: #93c5fd; 
+}
+
+.data-cell {
+    padding: 12px;
+    text-align: left;
+}

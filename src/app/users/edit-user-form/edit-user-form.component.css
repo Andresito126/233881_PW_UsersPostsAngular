@@ -1,0 +1,35 @@
+.header{
+    background-color: #93c5fd; 
+}
+
+#edit_form{
+
+}
+
+.form_div{
+    padding-left: 30vw;   
+    background-color: red;
+}
+
+label{
+    display: inline-block;
+    background-color: aqua;
+    width: 9%;
+    height: 1cm;
+}
+
+input{
+    text-align: center;
+    width: 30%;
+}
+
+
+
+
+
+.action{
+    margin-top: 2%;
+    margin-left: 40%;
+    background-color: rebeccapurple;
+    align-items: center;
+}
