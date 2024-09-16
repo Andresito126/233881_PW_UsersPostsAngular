@@ -1,35 +1,43 @@
-.header{
+.header {
     background-color: #93c5fd; 
 }
 
-#edit_form{
-
-}
-
-.form_div{
+.form_div {
     padding-left: 30vw;   
-    background-color: red;
 }
 
-label{
+#edit_form {
+    padding-top: 1cm;
+    background-color: #869cb4; 
+}
+
+label {
     display: inline-block;
-    background-color: aqua;
-    width: 9%;
+    width: 10%;
     height: 1cm;
+    font-weight: bold;
+    padding: 0.1cm;
+    margin-bottom: 0.1cm;
 }
 
-input{
+input {
     text-align: center;
     width: 30%;
+    padding: 0.1cm;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-
-
-
-
-.action{
+.action {
     margin-top: 2%;
     margin-left: 40%;
-    background-color: rebeccapurple;
-    align-items: center;
+    margin-bottom: 5%;
+    background-color: #2563eb; 
+    padding: 0.2cm 1cm;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+
 }
+
+
