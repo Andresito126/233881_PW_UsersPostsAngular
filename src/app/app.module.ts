@@ -12,7 +12,7 @@ import { EditUserFormComponent } from './users/edit-user-form/edit-user-form.com
   declarations: [
     AppComponent,
   ],
-  //aca se importan todos los componentes que vas creando 
+  //aca se importan todos los componentes y "herramientas, librerias" que vas creando 
   imports: [
     BrowserModule,
     AppRoutingModule,

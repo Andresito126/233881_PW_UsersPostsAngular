@@ -24,8 +24,12 @@ export class UsersDashboardComponent {
       website: ""
     }
 
+
+
     displayedColumns: string[] = ['id', 'name', 'username', 'email', 'phone', 'website']
     users: Iuser[]= []
+
+
 
   //esto por el injectable no se ocupa declarar la instancia lo del new, solo con declararlo
   //guion bajo _ para los servicios inyectables
@@ -40,9 +44,12 @@ export class UsersDashboardComponent {
 
   }
 
+  
+
   addUser(user: Iuser): void{
-    //se ocuapa para poder pushear a la tabla los datos que se añadiran 
-    this.users.push(user);
+    //se ocuapa para poder pushear a la tabla los datos que se añadiran y para poder "copiar el arreglo y que no se duplique"
+    this.users.push({...user});
     console.log(this.users);
   }
+
 }
