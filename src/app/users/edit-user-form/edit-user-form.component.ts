@@ -26,6 +26,8 @@ export class EditUserFormComponent {
     //   response => this.user =response
     // )
   }
+
+  
   mostrar(): void{
     this.eventEmitter.emit(this.user);
     console.log(this.user.name)
